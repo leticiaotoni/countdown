@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Roboto Condensed', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.imagem {
+  padding: 3rem;
+}
+
+h1 {
+display: flex;
+justify-content: center;
+font-size: 4rem;
+}
+
+h2 {
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+
+.coming-soon {
+  min-height: 100vh; 
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.day, .hour, .minute, .second {
+  font-size: 3rem;
+
+}
